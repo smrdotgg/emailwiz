@@ -447,6 +447,8 @@ $dmarcentry
 $spfentry
 $mxentry" > "$HOME/dns_emailwizard"
 
+echo "$(date +%s)" > "$HOME/emailwiz_last_run"
+
 printf "\033[31m
  _   _
 | \ | | _____      ___
